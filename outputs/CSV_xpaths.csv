@@ -1,0 +1,214 @@
+type,attribute,xpath
+class,_li,//html/body/div/div
+class,_940p _9gip,//html/body/div/div/div
+id,u_0_1_hD,//html/body/div/div/div/header
+id,u_0_2_t8,//html/body/div/div/div/header/div[1]
+class,_1-l5,//html/body/div/div/div/header/div[2]
+class,_1-kf _1-kg,//html/body/div/div/div/header/div[2]/div[1]
+none,,//html/body/div/div/div/header/div[2]/div[1]/div
+class,_3yl5 navlink,//html/body/div/div/div/header/div[2]/div[1]/div/a
+none,,//html/body/div/div/div/header/div[2]/div[1]/div/a/div
+class,_6a8a,//html/body/div/div/div/header/div[2]/div[1]/div/a/div/span
+alt,Messenger,//html/body/div/div/div/header/div[2]/div[1]/div/a/div/span/img
+class,_2fux,//html/body/div/div/div/header/div[2]/ul
+class,_4qfn,//html/body/div/div/div/header/div[2]/ul/li[1]
+text,Features,//html/body/div/div/div/header/div[2]/ul/li[1]/a
+class,_4qfn,//html/body/div/div/div/header/div[2]/ul/li[2]
+text,Desktop App,//html/body/div/div/div/header/div[2]/ul/li[2]/a
+class,_4qfn,//html/body/div/div/div/header/div[2]/ul/li[3]
+text,Privacy & Safety,//html/body/div/div/div/header/div[2]/ul/li[3]/a
+class,_4qfn,//html/body/div/div/div/header/div[2]/ul/li[4]
+text,For Developers,//html/body/div/div/div/header/div[2]/ul/li[4]/a
+class,_8otc,//html/body/div/div/div/header/div[2]/div[2]
+class,_8orf,//html/body/div/div/div/header/div[2]/div[2]/button[1]
+class,_messengerMarketingSVG__root,//html/body/div/div/div/header/div[2]/div[2]/button[1]/svg
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[1]/svg/g
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[1]/svg/g/g
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[1]/svg/g/g/g
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[1]/svg/g/g/g/rect[1]
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[1]/svg/g/g/g/rect[2]
+class,_8org,//html/body/div/div/div/header/div[2]/div[2]/button[2]
+class,_messengerMarketingSVG__root,//html/body/div/div/div/header/div[2]/div[2]/button[2]/svg
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[2]/svg/g
+class,_90nc,//html/body/div/div/div/header/div[2]/div[2]/button[2]/svg/g/g
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[2]/svg/g/g/g
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[2]/svg/g/g/g/path[1]
+none,,//html/body/div/div/div/header/div[2]/div[2]/button[2]/svg/g/g/g/path[2]
+class,_6az_ _6b69 _2tqi _8mgu,//html/body/div/div/div/div[1]
+class,_4wyl _4wyq _2k-y _4w-r _4wyu,//html/body/div/div/div/div[1]/div
+class,_4wyn _4wyo,//html/body/div/div/div/div[1]/div/div
+class,_6b6c,//html/body/div/div/div/div[1]/div/div/div
+class,_2kx3 _2ky6 _2kx4,//html/body/div/div/div/div[1]/div/div/div/div[1]
+class,_2kzy,//html/body/div/div/div/div[1]/div/div/div/div[1]/div
+class,_messengerMarketingSpacer__root _8nlu _8nmf _8nn5,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[1]
+class,_6aun,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div
+class,_6hp- _6hq1,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]
+class,_6b6w _9h0x,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div/div
+text,Hang out ,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div/div/h1
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div/div/h1/br
+class,_6hp- _6hq0,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[2]
+class,_6b6w _9h0x,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[2]/div
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[2]/div/div
+text,Hang out ,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[2]/div/div/h1
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[2]/div/div/h1/br
+class,_6hp- _6hp_,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[3]
+class,_6b6w _9h0x,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[3]/div
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[3]/div/div
+text,Hang out ,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[3]/div/div/h1
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[3]/div/div/h1/br
+class,_messengerMarketingSpacer__root _8nlt _8nmf _8nn4,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[4]
+text,Messenger makes it easy and fun to stay close to your favorite people.,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[5]
+class,_messengerMarketingSpacer__root _8nlv _8nmh _8nmq,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[6]
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]
+class,_6aup,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div
+id,u_0_3_Jw,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[1]
+id,u_0_4_n1,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]
+class,_6auq _messengerMarketingLogin__v3Form,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div
+id,login_form,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/input[1]
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/input[2]
+id,loginform,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div
+id,initial_request_id,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[1]
+id,u_0_5_0K,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[2]
+id,u_0_6_Gg,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[3]
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[4]
+id,lgnjs,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[5]
+id,email,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[6]
+id,pass,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[7]
+class,_9h74,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[1]
+text,Prisijungti,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[1]/button
+text,Pamirðote slaptaþodá?,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[1]/a
+class,_9h75,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]
+class,_2qcr,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]/div
+class,uiInputLabel clearfix,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]/div/div
+class,uiInputLabelInput,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]/div/div/label[1]
+id,u_0_0_rS,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]/div/div/label[1]/input
+class,_2qcu,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]/div/div/label[1]/span
+text,Keep me signed in,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]/div/div/label[2]
+id,default_persistent,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/div[2]/input
+class,_4zlw,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[2]
+href,http://l.messenger.com/l.php?u=http%3A%2F%2Fitunes.apple.com%2Fapp%2Fid454638411&h=AT0EQi7TfGUwcoBhkZe4jpmI_C1CKfeTzXXbolXvktch932HZQNghYsRbDbDHK_jAVc-YZ0vLaCQJk2j71eD7vAEM3p8kJ-eYFqFWIc9xzumEBdZfQXGfeoYWSmfcxmDv2hOp-oQbGo2XiaX,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[2]/a[1]
+class,img sp_gZY4xBGphL7 sx_370c2d,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[2]/a[1]/i
+href,https://l.messenger.com/l.php?u=https%3A%2F%2Fmarket.android.com%2Fdetails%3Fid%3Dcom.facebook.orca&h=AT2Au43Mkw5Q3u-c1809xAjjcMXtt5cYxoKSpAPREzhYV7RItP-RQHie_R3HW9hWCd-qSEDr7Z2GsXN-7mCTpX5vn-2W5L_BAgMHFVRX-oYVT5en5ifsRBr13eBHPekJyWvStkifKf_W-1-n,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[2]/a[2]
+class,img sp_gZY4xBGphL7 sx_9f8005,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[2]/a[2]/i
+id,u_0_7_jl,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[2]
+class,_6hp- _6hq0,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[8]
+class,_94c3 _9h76,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[8]/div
+alt,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[8]/div/img
+class,_6hp- _6hp_,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[9]
+class,_messengerMarketingSpacer__root _8nlv _8nmh _8nmq,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[9]/div[1]
+none,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[9]/div[2]
+alt,,//html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[9]/div[2]/img
+class,_2kx3 _2ky6 _2kx4,//html/body/div/div/div/div[1]/div/div/div/div[2]
+class,_2kzy,//html/body/div/div/div/div[1]/div/div/div/div[2]/div
+class,_6hp- _6hq1,//html/body/div/div/div/div[1]/div/div/div/div[2]/div/div
+class,_94c3,//html/body/div/div/div/div[1]/div/div/div/div[2]/div/div/div
+alt,,//html/body/div/div/div/div[1]/div/div/div/div[2]/div/div/div/img
+class,_4sze,//html/body/div/div/div/footer
+class,_6ajd,//html/body/div/div/div/footer/div
+class,_8v9m,//html/body/div/div/div/footer/div/div
+class,_8on8,//html/body/div/div/div/footer/div/div/div
+class,_4tdp,//html/body/div/div/div/footer/div/div/div/div
+class,_8vbh,//html/body/div/div/div/footer/div/div/div/div/div
+text, © Meta 2022. ,//html/body/div/div/div/footer/div/div/div/div/div/span[1]
+text, The Apple and Google Play logos are trademarks of their respective owners. ,//html/body/div/div/div/footer/div/div/div/div/div/span[2]
+class,_6aje,//html/body/div/div/div/footer/div/div/div/div/div/span[3]
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[3]/div
+text,Privacy Policy,//html/body/div/div/div/footer/div/div/div/div/div/span[3]/div/a[1]
+text,Cookie Policy,//html/body/div/div/div/footer/div/div/div/div/div/span[3]/div/a[2]
+text,Terms,//html/body/div/div/div/footer/div/div/div/div/div/span[3]/div/a[3]
+class,_6aje,//html/body/div/div/div/footer/div/div/div/div/div/span[4]
+id,u_0_8_Al,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/span
+id,u_0_9_zY,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/span/button
+text,English (US),//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/span/button/span
+class,_8v9s,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/span/button/svg
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/span/button/svg/polygon
+class,_8v9q,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[1]
+text,&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[1]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[2]
+text,Èeðtina&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[2]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[3]
+text,Dansk&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[3]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[4]
+text,Deutsch&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[4]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[5]
+text,&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[5]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[6]
+text,English (UK)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[6]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[7]
+text,English (US)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[7]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[8]
+text,Espa&#241;ol (Espa&#241;a)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[8]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[9]
+text,Espa&#241;ol&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[9]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[10]
+text,Suomi&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[10]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[11]
+text,Fran&#231;ais (France)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[11]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[12]
+text,&#1506;&#1489;&#1512;&#1497;&#1514;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[12]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[13]
+text,&#2361;&#2367;&#2344;&#2381;&#2342;&#2368;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[13]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[14]
+text,Magyar&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[14]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[15]
+text,Bahasa Indonesia&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[15]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[16]
+text,Italiano&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[16]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[17]
+text,&#26085;&#26412;&#35486;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[17]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[18]
+text,&#54620;&#44397;&#50612;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[18]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[19]
+text,Norsk (bokmål)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[19]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[20]
+text,Nederlands&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[20]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[21]
+text,Polski&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[21]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[22]
+text,Portugu&#234;s (Brasil)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[22]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[23]
+text,Portugu&#234;s (Portugal)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[23]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[24]
+text,Rom&#226;n&#259;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[24]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[25]
+text,&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[25]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[26]
+text,Svenska&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[26]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[27]
+text,&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[27]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[28]
+text,Türk&#231;e&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[28]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[29]
+text,Ti&#7871;ng Vi&#7879;t&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[29]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[30]
+text,&#20013;&#25991;(&#31616;&#20307;)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[30]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[31]
+text,&#20013;&#25991;(&#39321;&#28207;)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[31]/a
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[32]
+text,&#20013;&#25991;(&#21488;&#28771;)&#8206;,//html/body/div/div/div/footer/div/div/div/div/div/span[4]/div/ul/li[32]/a
+class,_6aje,//html/body/div/div/div/footer/div/div/div/div/div/span[5]
+none,,//html/body/div/div/div/footer/div/div/div/div/div/span[5]/div
+alt,From Facebook Logo,//html/body/div/div/div/footer/div/div/div/div/div/span[5]/div/img
+id,u_0_a_Ft,//html/body/div/div/div/div[2]
+id,close,//html/body/div/div/div/div[2]/div[1]
+class,_messengerMarketingSVG__root,//html/body/div/div/div/div[2]/div[1]/svg
+none,,//html/body/div/div/div/div[2]/div[1]/svg/g
+class,_90nc,//html/body/div/div/div/div[2]/div[1]/svg/g/g
+none,,//html/body/div/div/div/div[2]/div[1]/svg/g/g/g
+none,,//html/body/div/div/div/div[2]/div[1]/svg/g/g/g/path[1]
+none,,//html/body/div/div/div/div[2]/div[1]/svg/g/g/g/path[2]
+class,_1-kf,//html/body/div/div/div/div[2]/div[2]
+none,,//html/body/div/div/div/div[2]/div[2]/div
+none,,//html/body/div/div/div/div[2]/div[2]/div/div
+class,_6a8a,//html/body/div/div/div/div[2]/div[2]/div/div/span
+alt,Logos,//html/body/div/div/div/div[2]/div[2]/div/div/span/img
+class,_messengerMarketingSpacer__root _8nlz _8nml _8nmq,//html/body/div/div/div/div[2]/div[3]
+text,Coming soon! Message your Instagram friends right from Messenger. ,//html/body/div/div/div/div[2]/p
+text,Learn More.,//html/body/div/div/div/div[2]/p/a

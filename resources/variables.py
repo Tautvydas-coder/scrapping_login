@@ -1,0 +1,5 @@
+xpath_start = '/html/body/div//*'
+csv_name = 'outputs/CSV_xpaths.csv'
+json_name = 'outputs/JSON_xpaths.json'
+# URL = 'http://www.degalukainos.lt/'
+URL = 'https://www.messenger.com/'

@@ -1,0 +1,11 @@
+Page log in scraper:
+
+write a scraper for universal log in page scraper
+
+check for log in labels and input fields, that have text, that is common for log in (username, user id, email, password)
+
+for text verification, use a dictionary to store all possible values (for username= {email, gmail, username, user name, name})
+
+export results to csv file
+
+the results in csv folder should be elementID_type (for example "email"_"texfield") = xpath
