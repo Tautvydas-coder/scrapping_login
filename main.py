@@ -1,5 +1,4 @@
 import csv
-
 from bs4 import BeautifulSoup
 from lxml import html
 from resources.page_info import *
@@ -14,12 +13,13 @@ from resources.variables import *
 # body = BeautifulSoup('<a class="pointer" href="http://www.degalukainos.lt" title="Degalų kainos Lietuvoje" xpath="1"><img src="/img/logo_2.gif" width="142" height="62" alt="logo"></a>','html.parser')
 # body = soup.find('body').find_all('div')
 # for link in body:
-    # print(link.get_text())
-    # print(link)
-    # print(link.img['alt'])
+# print(link.get_text())
+# print(link)
+# print(link.img['alt'])
 # print(soup)
 
 # -------LXML-----------
+# page = requests.get(url=URL)
 # root = html.fromstring(page.content)
 # element = root.xpath('/html/body/div[1]/div[4]/div[2]/p[1]')
 # elementy = ('//html/body/div/div[2]/div[2]/div/form/div/div[2]/table/tr[2]/td[10]/div[1]/img')
@@ -32,9 +32,11 @@ from resources.variables import *
 
 # results = root.xpath('/html/body/div//*')
 # dom = etree.HTML(str(root))
-# elementr = root.xpath('//html/body/div[1]/div[1]/div[1]/a')
-# if elementr[0].get('href') is not None:
-#     print(elementr[0].get('href'))
+# elementr = root.xpath('/html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[7]')
+# print(elementr[0].get('type'))
+# if elementr[0].get('type') in login_name_pass:
+#     atr_type = elementr[0].get('type')
+#     print("type" + "," + atr_type)
 # else:
 #     print('no')
 # if elementr[0].get('id') is True:
@@ -62,22 +64,25 @@ def write_to_csv(results, tree, root):
         file.write("type" + "," + "attribute" + "," + "xpath" + "\n")
         for result in results:
             xpath = tree.getpath(result)
-            if not xpath.__contains__('script'):
+            if xpath.__contains__('input') or xpath.__contains__('label'):
                 elements = root.xpath(xpath)
                 content_text = elements[0].text
                 if content_text is None or content_text.isspace():
-                    if elements[0].get('id') is not None:
+                    if elements[0].get('type') in login_name_pass:
+                        atr_type = elements[0].get('type')
+                        file.write("type" + "," + atr_type)
+                    elif elements[0].get('id') in login_name_pass:
                         atr_id = elements[0].get('id')
                         file.write("id" + "," + atr_id)
-                    elif elements[0].get('alt') is not None:
-                        atr_alt = elements[0].get('alt')
-                        file.write("alt" + "," + atr_alt)
-                    elif elements[0].get('class') is not None:
+                    elif elements[0].get('class') in login_name_pass:
                         atr_class = elements[0].get('class')
                         file.write("class" + "," + atr_class)
-                    elif elements[0].get('href') is not None:
-                        atr_href = elements[0].get('href')
-                        file.write("href" + "," + atr_href)
+                    elif elements[0].get('placeholder') in login_name_pass:
+                        atr_placeholder = elements[0].get('placeholder')
+                        file.write("placeholder" + "," + atr_placeholder)
+                    elif elements[0].get('alt') in login_name_pass:
+                        atr_alt = elements[0].get('alt')
+                        file.write("alt" + "," + atr_alt)
                     else:
                         file.write("none" + "," + "")
                 else:
