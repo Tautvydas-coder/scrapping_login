@@ -67,27 +67,22 @@ def write_to_csv(results, tree, root):
             if xpath.__contains__('input') or xpath.__contains__('label'):
                 elements = root.xpath(xpath)
                 content_text = elements[0].text
-                if content_text is None or content_text.isspace():
-                    if elements[0].get('type') in login_name_pass:
-                        atr_type = elements[0].get('type')
-                        file.write("type" + "," + atr_type)
-                    elif elements[0].get('id') in login_name_pass:
-                        atr_id = elements[0].get('id')
-                        file.write("id" + "," + atr_id)
-                    elif elements[0].get('class') in login_name_pass:
-                        atr_class = elements[0].get('class')
-                        file.write("class" + "," + atr_class)
-                    elif elements[0].get('placeholder') in login_name_pass:
-                        atr_placeholder = elements[0].get('placeholder')
-                        file.write("placeholder" + "," + atr_placeholder)
-                    elif elements[0].get('alt') in login_name_pass:
-                        atr_alt = elements[0].get('alt')
-                        file.write("alt" + "," + atr_alt)
-                    else:
-                        file.write("none" + "," + "")
-                else:
-                    file.write("text" + "," + content_text.replace(',', ';'))
-                file.write("," + "/" + xpath + "\n")
+                if elements[0].get('type') in login_name_pass:
+                    atr_type = elements[0].get('type')
+                    file.write("type" + "," + atr_type+"," + "/" + xpath + "\n")
+                elif elements[0].get('id') in login_name_pass:
+                    atr_id = elements[0].get('id')
+                    file.write("id" + "," + atr_id+"," + "/" + xpath + "\n")
+                elif elements[0].get('class') in login_name_pass:
+                    atr_class = elements[0].get('class')
+                    file.write("class" + "," + atr_class+"," + "/" + xpath + "\n")
+                elif elements[0].get('placeholder') in login_name_pass:
+                    atr_placeholder = elements[0].get('placeholder')
+                    file.write("placeholder" + "," + atr_placeholder+"," + "/" + xpath + "\n")
+                elif elements[0].get('alt') in login_name_pass:
+                    atr_alt = elements[0].get('alt')
+                    file.write("alt" + "," + atr_alt +"," + "/" + xpath + "\n")
+
 
 
 def fetch_json_list():
