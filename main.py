@@ -1,5 +1,4 @@
 import csv
-from bs4 import BeautifulSoup
 from lxml import html
 from resources.page_info import *
 import json
@@ -7,12 +6,13 @@ from resources.variables import *
 
 
 # --------SOUP-----------
+# page = requests.get(url=URL)
 # soup = BeautifulSoup(page.content, 'html.parser')
-# results = soup.find(class_='news').find('table', id="kainos").find_all('td')
+# results = soup.find('head').find_all('div')
 # print(results)
 # body = BeautifulSoup('<a class="pointer" href="http://www.degalukainos.lt" title="Degalų kainos Lietuvoje" xpath="1"><img src="/img/logo_2.gif" width="142" height="62" alt="logo"></a>','html.parser')
 # body = soup.find('body').find_all('div')
-# for link in body:
+# for link in results:
 # print(link.get_text())
 # print(link)
 # print(link.img['alt'])
@@ -31,8 +31,9 @@ from resources.variables import *
 # tree = root.getroottree()
 
 # results = root.xpath('/html/body/div//*')
+# print(results)
 # dom = etree.HTML(str(root))
-# elementr = root.xpath('/html/body/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div[7]/div[1]/div/div[2]/div[1]/div/form/div/input[7]')
+# elementr = root.xpath('/html/body/main/div/form/div[2]/div/input')
 # print(elementr[0].get('type'))
 # if elementr[0].get('type') in login_name_pass:
 #     atr_type = elementr[0].get('type')
@@ -64,25 +65,27 @@ def write_to_csv(results, tree, root):
         file.write("type" + "," + "attribute" + "," + "xpath" + "\n")
         for result in results:
             xpath = tree.getpath(result)
+            # print(xpath)
             if xpath.__contains__('input') or xpath.__contains__('label'):
                 elements = root.xpath(xpath)
                 content_text = elements[0].text
+                # print(content_text)
+                if content_text in login_name_pass:
+                    print(content_text)
+                    # TODO label also should be save in excel if they are, if not than no
                 if elements[0].get('type') in login_name_pass:
                     atr_type = elements[0].get('type')
-                    file.write("type" + "," + atr_type+"," + "/" + xpath + "\n")
+                    file.write("type" + "," + atr_type + "," + "/" + xpath + "\n")
                 elif elements[0].get('id') in login_name_pass:
                     atr_id = elements[0].get('id')
-                    file.write("id" + "," + atr_id+"," + "/" + xpath + "\n")
+                    file.write("id" + "," + atr_id + "," + "/" + xpath + "\n")
                 elif elements[0].get('class') in login_name_pass:
                     atr_class = elements[0].get('class')
-                    file.write("class" + "," + atr_class+"," + "/" + xpath + "\n")
+                    file.write("class" + "," + atr_class + "," + "/" + xpath + "\n")
                 elif elements[0].get('placeholder') in login_name_pass:
                     atr_placeholder = elements[0].get('placeholder')
-                    file.write("placeholder" + "," + atr_placeholder+"," + "/" + xpath + "\n")
-                elif elements[0].get('alt') in login_name_pass:
-                    atr_alt = elements[0].get('alt')
-                    file.write("alt" + "," + atr_alt +"," + "/" + xpath + "\n")
-
+                    file.write(
+                        "placeholder" + "," + atr_placeholder + "," + "/" + xpath + "\n")
 
 
 def fetch_json_list():
