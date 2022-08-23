@@ -1,12 +1,23 @@
 [
     {
+        "type": "Username",
+        "attribute": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/label",
+        "xpath": null,
+        "labelText": null,
+        "labelXpath": null
+    },
+    {
         "type": "type",
         "attribute": "email",
-        "xpath": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input"
+        "xpath": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input",
+        "labelText": "Password",
+        "labelXpath": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/label"
     },
     {
         "type": "type",
         "attribute": "password",
-        "xpath": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[2]"
+        "xpath": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[2]",
+        "labelText": "",
+        "labelXpath": null
     }
 ]
