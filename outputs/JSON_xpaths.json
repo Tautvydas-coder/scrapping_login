@@ -5,9 +5,6 @@
         "xpathName": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input",
         "typePass": "type",
         "attributePass": "password",
-        "xpathPass": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[2]",
-        "null": [
-            ""
-        ]
+        "xpathPass": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[2]"
     }
 ]
