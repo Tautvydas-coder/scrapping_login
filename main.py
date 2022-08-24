@@ -65,7 +65,7 @@ def fetch_web_element_info(root):
 def write_to_csv(results, tree, root):
     with open(csv_name, 'w', encoding='windows-1257', errors="xmlcharrefreplace") as file:
         file.write(
-            "typeName" + "," + "attributeName" + "," + "xpathName" + "," "typePass" + "," + "attributePass" + "," + "xpathPass" + "\n")
+            "typeName" + "," + "attributeName" + "," + "xpathName" + "," + "typePass" + "," + "attributePass" + "," + "xpathPass" + "\n")
         for result in results:
             xpath = tree.getpath(result)
             # print(xpath)
