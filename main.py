@@ -65,14 +65,14 @@ def fetch_web_element_info(root):
 def write_to_csv(results, tree, root):
     with open(csv_name, 'w', encoding='windows-1257', errors="xmlcharrefreplace") as file:
         file.write(
-            "type" + "," + "attribute" + "," + "xpath" +  "," + "labelText" + "," + "labelXpath" + "\n")
+            "typeName" + "," + "attributeName" + "," + "xpathName" + "," "typePass" + "," + "attributePass" + "," + "xpathPass" + "\n")
         for result in results:
             xpath = tree.getpath(result)
             # print(xpath)
             if xpath.__contains__('input') or xpath.__contains__('label'):
                 elements = root.xpath(xpath)
                 content_text = elements[0].text
-                # print(content_text)
+                print(content_text)
                 if elements[0].get('type') in login_name_pass:
                     atr_type = elements[0].get('type')
                     file.write("type" + "," + atr_type + "," + "/" + xpath + ",")
@@ -84,12 +84,11 @@ def write_to_csv(results, tree, root):
                     file.write("class" + "," + atr_class + "," + "/" + xpath + ",")
                 elif elements[0].get('placeholder') in login_name_pass:
                     atr_placeholder = elements[0].get('placeholder')
-                    file.write(
-                        "placeholder" + "," + atr_placeholder + "," + "/" + xpath + ",")
-                if content_text in login_name_pass:
-                    print(content_text)
+                    file.write("placeholder" + "," + atr_placeholder + "," + "/" + xpath + ",")
+                # if content_text in login_name_pass:
+                    # print(content_text)
                     # TODO label also should be save in excel if they are, if not than no
-                    file.write( content_text + "," + "/" + xpath + "\n")
+                    # file.write( content_text + "," + "/" + xpath + "\n")
 
 
 def fetch_json_list():
