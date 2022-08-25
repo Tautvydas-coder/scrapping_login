@@ -5,6 +5,7 @@ from resources.page_info import *
 import json
 from resources.variables import *
 
+
 # --------SOUP-----------
 # page = requests.get(url=URL)
 # soup = BeautifulSoup(page.content, 'html.parser')
@@ -29,7 +30,6 @@ from resources.variables import *
 # print(element[0].text)
 # print(type(print(element[0].text)))
 # tree = root.getroottree()
-
 # results = root.xpath('/html/body/div//*')
 # print(results)
 # dom = etree.HTML(str(root))
@@ -60,7 +60,13 @@ def fetch_web_element_info(root):
     return web_elements
 
 
-def write_to_csv(results, tree, root):
+def fetch_data_from_txt():
+    with open(data, 'r', encoding='utf-8') as txt:
+        contents = txt.read().splitlines()
+    return contents
+
+
+def write_to_csv(results, tree, root, vocabulary):
     temp = 0
     with open(csv_name, 'w', encoding='windows-1257', errors="xmlcharrefreplace") as file:
         file.write(column_names)
@@ -69,28 +75,27 @@ def write_to_csv(results, tree, root):
             if xpath.__contains__('input') or xpath.__contains__('label'):
                 elements = root.xpath(xpath)
                 content_text = elements[0].text
-                # print(content_text)
-                if elements[0].get('type') in login_name_pass:
+                if elements[0].get('type') in vocabulary:
                     atr_type = elements[0].get('type')
                     file.write("type" + "," + atr_type + "," + "/" + xpath)
                     temp += 1
                     if temp < 4: file.write(",")
-                elif elements[0].get('id') in login_name_pass:
+                elif elements[0].get('id') in vocabulary:
                     atr_id = elements[0].get('id')
                     file.write("id" + "," + atr_id + "," + "/" + xpath)
                     temp += 1
                     if temp < 4: file.write(",")
-                elif elements[0].get('class') in login_name_pass:
+                elif elements[0].get('class') in vocabulary:
                     atr_class = elements[0].get('class')
                     file.write("class" + "," + atr_class + "," + "/" + xpath)
                     temp += 1
                     if temp < 4: file.write(",")
-                elif elements[0].get('placeholder') in login_name_pass:
+                elif elements[0].get('placeholder') in vocabulary:
                     atr_placeholder = elements[0].get('placeholder')
                     file.write("placeholder" + "," + atr_placeholder + "," + "/" + xpath)
                     temp += 1
                     if temp < 4: file.write(",")
-                if content_text in login_name_pass:
+                if content_text in vocabulary:
                     file.write(content_text + "," + "/" + xpath)
                     temp += 1
                     if temp < 4: file.write(",")
@@ -118,7 +123,8 @@ if __name__ == '__main__':
     web_root = fetch_page_content(page)
     web_tree = fetch_root_tree(web_root)
     web_results = fetch_web_element_info(web_root)
-    write_to_csv(web_results, web_tree, web_root)
+    vocabulary = fetch_data_from_txt()
+    write_to_csv(web_results, web_tree, web_root, vocabulary)
     json_list = fetch_json_list()
     json_string = fetch_json_format(json_list)
     write_to_json_file(json_string)
