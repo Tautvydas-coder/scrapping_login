@@ -10,8 +10,6 @@ from resources.variables import *
 # soup = BeautifulSoup(page.content, 'html.parser')
 # results = soup.find('body').find('div').find_all('label')
 # print(results)
-
-
 # body = BeautifulSoup('<a class="pointer" href="http://www.degalukainos.lt" title="Degalų kainos Lietuvoje" xpath="1"><img src="/img/logo_2.gif" width="142" height="62" alt="logo"></a>','html.parser')
 # body = soup.find('body').find_all('div')
 # for link in results:
@@ -65,8 +63,7 @@ def fetch_web_element_info(root):
 def write_to_csv(results, tree, root):
     temp = 0
     with open(csv_name, 'w', encoding='windows-1257', errors="xmlcharrefreplace") as file:
-        file.write(
-            "nameLabel" + "," + "nameLabelXpath" + "," + "typeName" + "," + "attributeName" + "," + "xpathName" + "," + "passwordLabel" + "," + "passLabelXpath" + "," + "typePass" + "," + "attributePass" + "," + "xpathPass" + "\n")
+        file.write(column_names)
         for result in results:
             xpath = tree.getpath(result)
             if xpath.__contains__('input') or xpath.__contains__('label'):
