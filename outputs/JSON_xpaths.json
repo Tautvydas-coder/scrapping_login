@@ -1,10 +1,14 @@
 [
     {
+        "nameLabel": "Email",
+        "nameLabelXpath": "//html/body/main/div/form/div[1]/label",
         "typeName": "type",
         "attributeName": "email",
-        "xpathName": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input",
+        "xpathName": "//html/body/main/div/form/div[1]/input",
+        "passwordLabel": "Password",
+        "passLabelXpath": "//html/body/main/div/form/div[2]/label",
         "typePass": "type",
         "attributePass": "password",
-        "xpathPass": "//html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[2]"
+        "xpathPass": "//html/body/main/div/form/div[2]/div/input"
     }
 ]

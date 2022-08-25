@@ -6,10 +6,10 @@ import json
 from resources.variables import *
 
 # --------SOUP-----------
-page = requests.get(url=URL)
-soup = BeautifulSoup(page.content, 'html.parser')
-results = soup.find('body').find('div').find_all('label')
-print(results)
+# page = requests.get(url=URL)
+# soup = BeautifulSoup(page.content, 'html.parser')
+# results = soup.find('body').find('div').find_all('label')
+# print(results)
 
 
 # body = BeautifulSoup('<a class="pointer" href="http://www.degalukainos.lt" title="Degalų kainos Lietuvoje" xpath="1"><img src="/img/logo_2.gif" width="142" height="62" alt="logo"></a>','html.parser')
@@ -66,39 +66,37 @@ def write_to_csv(results, tree, root):
     temp = 0
     with open(csv_name, 'w', encoding='windows-1257', errors="xmlcharrefreplace") as file:
         file.write(
-            "typeName" + "," + "attributeName" + "," + "xpathName" + "," + "typePass" + "," + "attributePass" + "," + "xpathPass" + "\n")
+            "nameLabel" + "," + "nameLabelXpath" + "," + "typeName" + "," + "attributeName" + "," + "xpathName" + "," + "passwordLabel" + "," + "passLabelXpath" + "," + "typePass" + "," + "attributePass" + "," + "xpathPass" + "\n")
         for result in results:
             xpath = tree.getpath(result)
             if xpath.__contains__('input') or xpath.__contains__('label'):
                 elements = root.xpath(xpath)
                 content_text = elements[0].text
-                print(content_text)
+                # print(content_text)
                 if elements[0].get('type') in login_name_pass:
                     atr_type = elements[0].get('type')
                     file.write("type" + "," + atr_type + "," + "/" + xpath)
-                    temp +=1
-                    if temp<2: file.write(",")
+                    temp += 1
+                    if temp < 4: file.write(",")
                 elif elements[0].get('id') in login_name_pass:
                     atr_id = elements[0].get('id')
                     file.write("id" + "," + atr_id + "," + "/" + xpath)
-                    temp +=1
-                    if temp<2: file.write(",")
+                    temp += 1
+                    if temp < 4: file.write(",")
                 elif elements[0].get('class') in login_name_pass:
                     atr_class = elements[0].get('class')
                     file.write("class" + "," + atr_class + "," + "/" + xpath)
-                    temp +=1
-                    if temp<2: file.write(",")
+                    temp += 1
+                    if temp < 4: file.write(",")
                 elif elements[0].get('placeholder') in login_name_pass:
                     atr_placeholder = elements[0].get('placeholder')
                     file.write("placeholder" + "," + atr_placeholder + "," + "/" + xpath)
-                    temp +=1
-                    if temp<2: file.write(",")
-                # if content_text in login_name_pass:
-                #     print(content_text)
-                #     # TODO label also should be save in excel if they are, if not than no
-                #     file.write( content_text + "," + "/" + xpath + "\n")
-                #     temp +=1
-                #     if temp<2: file.write(",")
+                    temp += 1
+                    if temp < 4: file.write(",")
+                if content_text in login_name_pass:
+                    file.write(content_text + "," + "/" + xpath)
+                    temp += 1
+                    if temp < 4: file.write(",")
 
 
 def fetch_json_list():
