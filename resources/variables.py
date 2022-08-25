@@ -1,7 +1,6 @@
 xpath_start = '/html/body//*'
 csv_name = 'outputs/CSV_xpaths.csv'
 json_name = 'outputs/JSON_xpaths.json'
-# URL = 'http://www.degalukainos.lt/'
 # URL = 'https://www.messenger.com/'
 # URL = 'https://demoqa.com/login/'
 # URL = 'https://sso.teachable.com/secure/9521/identity/login/password'
@@ -15,6 +14,4 @@ login_name_samples = ['email', 'gmail', 'username', 'user-name', 'name', 'user_n
                       'user_id', 'user-id', 'user id', 'user', 'Email address or username', 'login-username',
                       'userName', 'UserName','Email address or username','Username','Email or Phone']
 login_password_samples = ['pass', 'password', 'Slaptažodis', 'psw', 'Enter your password', 'login-password','Password']
-# /html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[2]/div[2]/input
 login_name_pass = login_name_samples + login_password_samples
-# print(login_name_pass)
